@@ -9,10 +9,10 @@
 class Attributes(Yusuf) :
 	@staticmethod
 	def contact() -> tuple:
-	    tweeter  = "kazu_rms"
+	    twitter = "kazu_rms"
 	    facebook   = "aenir02"
 	    
-	    return discord, telegram, proton
+	    return Facebook, twitter
 	
 	@staticmethod
 	def life() -> tuple:
