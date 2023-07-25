@@ -12,7 +12,7 @@ class Attributes(Yusuf) :
 	    twitter = "kazu_rms"
 	    facebook   = "aenir02"
 	    
-	    return Facebook, twitter
+	    return facebook,twitter
 	
 	@staticmethod
 	def life() -> tuple:
