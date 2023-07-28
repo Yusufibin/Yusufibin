@@ -24,7 +24,7 @@ class Attributes(Yusuf) :
 	@staticmethod
 	def coding() -> tuple:
 		langs = {
-			'expert':   ['python'],
+			'expert':   ['python', 'bash', 'julia', 'R' ],
 			'intermediate': ['go', 'c','c++'],
 			'learning': ['js', 'c#', 'asm', 'java']
 		}
