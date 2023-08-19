@@ -28,7 +28,7 @@ class Attributes(Yusuf) :
 			'intermediate': ['go', 'c','c++'],
 			'learning': ['js', 'c#', 'asm', 'java']
 		}
-		specialities  = ['web/app reverse engineering', 'machine learning']
+		specialities  = ['web/app', 'reverse engineering', 'machine learning']
 		environnement = ['jupyter']
 		
 		return langs, specialities, environnement
