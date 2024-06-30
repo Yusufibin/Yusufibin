@@ -1,39 +1,64 @@
-### Hi there 👋
+<!-- <p align="center">
+    <img alt="" src=https://img.shields.io/github/stars/xtekky?style=for-the-badge&?affiliations=OWNER%2CCOLLABORATOR />
+    <img alt="" src=https://komarev.com/ghpvc/?username=xtekky&style=for-the-badge />
+</p> -->
 
-<!-- Hi skid <3 -->
 
-
-
+<h2 align="center">About Me </h2>
 
 ```python
-class Attributes(Yusuf) :
-	@staticmethod
-	def contact() -> tuple:
-	    twitter = "kazu_rms"
-	    facebook   = "aenir02"
-	    
-	    return facebook,twitter
-	
-	@staticmethod
-	def life() -> tuple:
-		langs         = ['French', 'Spanish', 'English']
-		
-		
-		return langs
-	
-	@staticmethod
-	def coding() -> tuple:
-		langs = {
-			'expert':   ['python', 'bash', 'julia', 'R' ],
-			'intermediate': ['go', 'c','c++'],
-			'learning': ['js', 'c#', 'asm', 'java']
-		}
-		specialities  = ['web/app', 'reverse engineering', 'machine learning']
-		environnement = ['jupyter']
-		
-		return langs, specialities, environnement
+from typing import Tuple, List, Dict
 
+class Yusuf:
+    pass
+
+class Attributes(Yusuf):
+    @property
+    def contact(self) -> Tuple[str, str, str]:
+        telegram = "t.me/kuro_kazu"
+        email    = "tmami4862@gmail.com"
+	    
+        return telegram, channel, email
+
+    @property
+    def life(self) -> Tuple[List[str], int]:
+        langs = ['French', 'German', 'Spanish', 'English']
+        age   = 17
+		
+        return langs, age
+	
+    @property
+    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
+        langs = {
+            'expert'      : ['python'],
+            'intermediate': ['go', 'js'],
+            'learning'    : ['c', 'c++', 'c#', 'asm', 'java']
+        }
+        specialities  = ['web/app reverse engineering', 'fullstack', 'ai']
+        ide           = ['vscode']
+        pc            = {
+            'MacOS': {
+                'macbook air m2': {
+                    'processor': 'm2 | 8 cores',
+                    'ram'      : '8gb',
+                    'gpu'      : 'm2 | 8 cores'
+                }
+            },
+            'Windows': {
+                'custom': {
+                    'processor': 'AMD ryzen 7 5800X | 8 cores',
+                    'ram'      : '16gb',
+                    'gpu'      : 'nvidia 3070 | 5888 CUDA cores'
+                }
+            }
+        }
+
+	return langs, specialities, ide, pc
 ```
+
+_ranked 4th for most contributions made by independent developers to AI open source & decentralisation ([source](https://huyenchip.com/2024/03/14/ai-oss.html))_   
+_gpt4free is a top #200 repository on github ~ ([source](https://top1000repos.com/))_
+
 <h2 align="center">Skills </h2>
 
 <p align="center">
@@ -42,25 +67,10 @@ class Attributes(Yusuf) :
   </a>
 </p>
 
-<h2 align="center">👨‍💻 Repositories 👨‍💻</h2>
-<br>
-<div width="100%" align="center">
-  <a align="left" href="https://github.com/Yusufibin/Detecting-covid" title="Detecting-covid"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Yusufibin&repo=Detecting-covid&theme=react&border_color=61dafb&border_radius=10"></a><a align="right" href="https://github.com/Yusufibin/time_series_forecasting" title="time_series_forecasting"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Yusufibin&repo=time_series_forecasting&theme=react&border_color=61dafb&border_radius=10"></a>
-</div>
-<br/><br/><br/><br/><br/><br/>
-<div width="100%" align="center">
-  <a align="left" href="https://github.com/Yusufibin/gpt4gratuit" title="gpt4gratuit"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Yusufibin&repo=gpt4gratuit&theme=react&border_color=61dafb&border_radius=10"></a>
-  <a align="right" href="https://github.com/Yusufibin/Robby-chatbot" title="Robby-chatbot"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Yusufibin&repo=Robby-chatbot&theme=react&border_color=61dafb&border_radius=10"></a>
+<p href="https://discord.gg/onlp" align="center">
+    <img alt="" src="https://github-readme-stats.vercel.app/api?username=yusufibin&theme=tokyonight&show_icons=true">
+</p>
 
-</div>
-<br/><br/><br/><br/><br/><br/>
-<div width="100%" align="center">
-  <a align="left" href="https://github.com/Yusufibin/Simple-Python-Chatbot" title="Simple-Python-Chatbot"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Yusufibin&repo=Simple-Python-Chatbot&theme=react&border_color=61dafb&border_radius=10"></a>
-  <a align="right" href="https://github.com/Yusufibin/ReconnaissanceMarqueTypeVehicule" title="ReconnaissanceMarqueTypeVehicule"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Yusufibin&repo=ReconnaissanceMarqueTypeVehicule&theme=react&border_color=61dafb&border_radius=10"></a>
-</div>
-<br/><br/><br/><br/><br/><br/>
-
-<h4 align="center">
-  <a href="https://github.com/Yusufibin?tab=repositories" title="Show Repositories">🔎 Show More 🔍</a>
-</h4>
-
+<p href="https://discord.gg/onlp" align="center">
+    <img alt="" src=https://lanyard.cnrad.dev/api/1115378147630788618/>
+</p>
