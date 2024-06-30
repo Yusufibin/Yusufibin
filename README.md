@@ -16,7 +16,7 @@ class Attributes(Yusuf) :
 	
 	@staticmethod
 	def life() -> tuple:
-		langs         = ['French', 'Spanish', 'English']
+		langs = ['French', 'Spanish', 'English']
 		
 		
 		return langs
