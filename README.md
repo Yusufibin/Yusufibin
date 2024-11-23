@@ -1,7 +1,7 @@
-<h1 align="center">👋 Bienvenue sur mon profil</h1>
+<h1 align="center">👋 Welcome to my GitHub Profile</h1>
 
 <p align="center">
-  <em>Développeur Passionné | Machine Learning | Reverse Engineering</em>
+  <em>Software Developer | Machine Learning Enthusiast | Reverse Engineering</em>
 </p>
 
 ```python
@@ -12,7 +12,7 @@ class Developer:
         self.languages_spoken = ["French", "Spanish", "English"]
         self.coding = {
             "expert": ["Python", "Bash", "Julia", "R"],
-            "intermediate": ["Go", "C", "C++"],
+            "intermediate": ["Go", "C","Rust","C++"],
             "learning": ["JavaScript", "C#", "Assembly", "Java"]
         }
         self.specialities = ["Web/App Development", 
@@ -24,22 +24,23 @@ class Developer:
         return {
             "twitter": "@kazu_rms",
             "facebook": "aenir02",
-            "github": "your_github_username"
+            "github": "Yusufibin"
         }
     
-    def daily_routine(self) -> list:
+    def daily_workflow(self) -> list:
         return [
-            "☕ Code avec Python",
-            "🧮 Exploration de données",
-            "🔍 Reverse Engineering",
-            "📚 Apprentissage continu",
-            "🤝 Collaboration sur des projets open source"
+            "☕ Coding in Python",
+            "🧮 Data Science Exploration",
+            "🔍 Reverse Engineering Projects",
+            "📚 Learning New Technologies",
+            "🤝 Contributing to Open Source"
         ]
 
+# Creating instance of myself
 me = Developer()
 ```
 
-<h2 align="center">🛠️ Technologies & Outils</h2>
+<h2 align="center">🛠️ Technologies & Tools</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-Expert-success?style=flat&logo=python&logoColor=white&color=2bbc8a" />
@@ -53,13 +54,13 @@ me = Developer()
   </a>
 </p>
 
-<h2 align="center">📊 Statistiques GitHub</h2>
+<h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufibin&theme=dark" alt="GitHub Streak" />
 </p>
 
-<h2 align="center">🤝 Connectons-nous</h2>
+<h2 align="center">🤝 Let's Connect</h2>
 
 <p align="center">
   <a href="https://twitter.com/kazu_rms">
@@ -73,5 +74,5 @@ me = Developer()
 ---
 
 <p align="center">
-  <i>N'hésitez pas à explorer mes repositories et à me contacter pour collaborer !</i>
+  <i>Feel free to explore my repositories and reach out for collaboration!</i>
 </p>
