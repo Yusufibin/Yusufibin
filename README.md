@@ -38,7 +38,7 @@ class Attributes(Yusuf) :
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,golang,vscode,androidstudio,c,cs,cpp,js,css,html" />
+    <img src="https://skillicons.dev/icons?i=python,golang,vscode,androidstudio,c,cs,cpp,rust,css,html" />
   </a>
 </p>
 
