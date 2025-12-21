@@ -1,4 +1,4 @@
- <div align="center">
+<div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2EF7A3&center=true&vCenter=true&width=435&lines=Welcome+to+my+Digital+Universe;Full+Stack+Developer;Machine+Learning+Enthusiast;Reverse+Engineering+Passionate" alt="Typing SVG" />
 </div>
 
@@ -110,7 +110,18 @@ fn panic(_info: &core::panic::PanicInfo) -> ! {
 
   <br /><br />
 
-  <!-- Stats Section -->
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=yusufibin&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yusufibin&layout=compact&theme=tokyonight" />
+  <!-- Professional Stats Section -->
+  <div align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=yusufibin&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" height="150" alt="stats graph" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yusufibin&layout=compact&theme=react&hide_border=true&bg_color=0D1117" height="150" alt="languages graph" />
+  </div>
+  
+  <div align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufibin&theme=react&hide_border=true&bg_color=0D1117" alt="streak graph" />
+  </div>
+
+  <br />
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yusufibin&bg_color=0D1117&color=2EF7A3&line=2EF7A3&point=FFFFFF&hide_border=true" width="100%" alt="Activity Graph" />
+
 </div>
