@@ -1,5 +1,4 @@
-
-<div align="center">
+ <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2EF7A3&center=true&vCenter=true&width=435&lines=Welcome+to+my+Digital+Universe;Full+Stack+Developer;Machine+Learning+Enthusiast;Reverse+Engineering+Passionate" alt="Typing SVG" />
 </div>
 
@@ -10,77 +9,43 @@
 
 ---
 
-```python
-class FullStackDeveloper:
-    def __init__(self):
-        self.name = "Yusuf"
-        self.role = "Full Stack Developer"
-        self.location = "🌍"
-        self.experience = {
-            "years_coding": 5,
-            "projects_completed": "50+"
-        }
-        
-    @property
-    def current_adventures(self) -> dict:
-        return {
-            "🔭 Current": "Working on AI-powered applications",
-            "🌱 Learning": "Advanced Reverse Engineering techniques",
-            "👯 Looking": "To collaborate on innovative projects",
-            "💬 Ask me": "About Python, ML, and Reverse Engineering"
-        }
-    
-    @property
-    def tech_stack(self) -> dict:
-        return {
-            "languages": {
-                "main": ["Python 🐍", "Bash 💻", "Julia 📊", "R 📈"],
-                "others": ["Go 🔄", "C/C++ ⚡", "Rust 🦀"],
-                "upcoming": ["JavaScript 🌐", "C# 💫", "Assembly 🔧", "Java ☕"]
-            },
-            "specialities": {
-                "domains": ["Web/App Development 🎯", "Reverse Engineering 🔍", "Machine Learning 🤖"],
-                "tools": ["VSCode", "Jupyter", "Android Studio"],
-                "frameworks": ["TensorFlow", "PyTorch", "Flask", "Docker"]
-            }
-        }
-    
-    def get_contact(self) -> dict:
-        return {
-            "twitter": "@kazu_rms",
-            "facebook": "aenir02",
-        }
+```rust
+#![no_std]
+#![no_main]
 
-me = FullStackDeveloper()
+#[repr(C, packed)]
+struct FullStackDeveloper {
+    name: *const u8,
+    role: *const u8,
+    location: *const u8,
+    years_coding: u32,
+    projects_completed: *const u8,
+}
+
+#[no_mangle]
+pub extern "C" fn _start() -> ! {
+    let name_bytes = b"Yusuf\0";
+    let role_bytes = b"Full Stack Developer\0";
+    let loc_bytes = b"\xF0\x9F\x8C\x8D\0";
+    let proj_bytes = b"50+\0";
+
+    let _identity = FullStackDeveloper {
+        name: name_bytes.as_ptr(),
+        role: role_bytes.as_ptr(),
+        location: loc_bytes.as_ptr(),
+        years_coding: 5,
+        projects_completed: proj_bytes.as_ptr(),
+    };
+
+    loop {
+        unsafe {
+            core::arch::asm!("nop");
+        }
+    }
+}
+
+#[panic_handler]
+fn panic(_info: &core::panic::PanicInfo) -> ! {
+    loop {}
+}
 ```
-
----
-
-<div align="center">
-  <!-- Badges Section -->
-  <p>
-    <img src="https://img.shields.io/badge/Python-Expert-success?style=for-the-badge&logo=python&logoColor=white&color=2bbc8a" />
-    <img src="https://img.shields.io/badge/Bash-Expert-success?style=for-the-badge&logo=gnu-bash&logoColor=white&color=2bbc8a" />
-    <img src="https://img.shields.io/badge/Julia-Expert-success?style=for-the-badge&logo=julia&logoColor=white&color=2bbc8a" />
-    <img src="https://img.shields.io/badge/R-Expert-success?style=for-the-badge&logo=r&logoColor=white&color=2bbc8a" />
-  </p>
-  
-  <p>
-    <img src="https://img.shields.io/badge/JavaScript-Learning-blue?style=for-the-badge&logo=javascript&logoColor=white&color=007acc" />
-    <img src="https://img.shields.io/badge/Assembly-Learning-blue?style=for-the-badge&logo=assembly&logoColor=white&color=007acc" />
-    <img src="https://img.shields.io/badge/Java-Learning-blue?style=for-the-badge&logo=java&logoColor=white&color=007acc" />
-  </p>
-
-  <br />
-
-  <!-- Icons Section -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,golang,vscode,androidstudio,c,cs,cpp,rust,css,html,docker,kubernetes,vim,tensorflow,pytorch,git" />
-  </a>
-
-  <br /><br />
-
-  <!-- Stats Section -->
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=yusufibin&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yusufibin&layout=compact&theme=tokyonight" />
-</div>
