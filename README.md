@@ -89,11 +89,7 @@ fn panic(_info: &core::panic::PanicInfo) -> ! {
 <div align="center">
 
 
-  <!-- Professional Stats Section -->
-  <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=yusufibin&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" height="150" alt="stats graph" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yusufibin&layout=compact&theme=react&hide_border=true&bg_color=0D1117" height="150" alt="languages graph" />
-  </div>
+
   
   <div align="center">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufibin&theme=react&hide_border=true&bg_color=0D1117" alt="streak graph" />
