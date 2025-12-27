@@ -87,28 +87,7 @@ fn panic(_info: &core::panic::PanicInfo) -> ! {
 ---
 
 <div align="center">
-  <!-- Badges Section -->
-  <p>
-    <img src="https://img.shields.io/badge/Python-Expert-success?style=for-the-badge&logo=python&logoColor=white&color=2bbc8a" />
-    <img src="https://img.shields.io/badge/Bash-Expert-success?style=for-the-badge&logo=gnu-bash&logoColor=white&color=2bbc8a" />
-    <img src="https://img.shields.io/badge/Julia-Expert-success?style=for-the-badge&logo=julia&logoColor=white&color=2bbc8a" />
-    <img src="https://img.shields.io/badge/R-Expert-success?style=for-the-badge&logo=r&logoColor=white&color=2bbc8a" />
-  </p>
-  
-  <p>
-    <img src="https://img.shields.io/badge/JavaScript-Learning-blue?style=for-the-badge&logo=javascript&logoColor=white&color=007acc" />
-    <img src="https://img.shields.io/badge/Assembly-Learning-blue?style=for-the-badge&logo=assembly&logoColor=white&color=007acc" />
-    <img src="https://img.shields.io/badge/Java-Learning-blue?style=for-the-badge&logo=java&logoColor=white&color=007acc" />
-  </p>
 
-  <br />
-
-  <!-- Icons Section -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,golang,vscode,androidstudio,c,cs,cpp,rust,css,html,docker,kubernetes,vim,tensorflow,pytorch,git" />
-  </a>
-
-  <br /><br />
 
   <!-- Professional Stats Section -->
   <div align="center">
