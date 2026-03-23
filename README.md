@@ -10,78 +10,66 @@
 ---
 
 ```rust
-#![no_std]
-#![no_main]
-
-#[repr(C, packed)]
 struct FullStackDeveloper {
     name: &'static str,
     role: &'static str,
     location: char,
     years_coding: u8,
-    projects_completed: &'static [u8],
+    projects_completed: &'static str,
 }
 
 impl FullStackDeveloper {
-    #[inline(always)]
-    const fn new() -> Self {
+    fn new() -> Self {
         Self {
             name: "Yusuf",
             role: "Full Stack Developer",
-            location: '\u{1F30D}',
-            years_coding: 0x05,
-            projects_completed: b"50+",
+            location: '🌍',
+            years_coding: 5,
+            projects_completed: "50+", 
         }
     }
 
-    fn current_adventures(&self) -> [(&'static str, &'static str); 4] {
+    fn current_adventures(&self) -> [(&str, &str); 4] {
         [
-            ("Current", "Working on AI-powered applications"),
+            ("Current", "Working on **** "),
             ("Learning", "Advanced Reverse Engineering techniques"),
             ("Looking", "To collaborate on innovative projects"),
             ("Ask me", "About Python, ML, and Reverse Engineering"),
         ]
     }
 
-    fn tech_stack(&self) -> ([&'static str; 4], [&'static str; 3], [&'static str; 4]) {
+    fn tech_stack(&self) -> ([&str; 4], [&str; 3], [&str; 4]) {
         (
-            ["Python \u{1F40D}", "Bash \u{1F4BB}", "Julia \u{1F4CA}", "R \u{1F4C8}"],
-            ["Go \u{1F504}", "C/C++ \u{26A1}", "Rust \u{1F980}"],
-            ["JavaScript \u{1F310}", "C# \u{1F4AB}", "Assembly \u{1F527}", "Java \u{2615}"]
+            ["Python ", "Bash ", "Julia ", "R "],
+            ["Go ", "C/C++ ⚡", "Rust 🦀"],
+            ["JavaScript ", "C# ", "Assembly ", "Java ☕"]
         )
     }
 
-    fn specialities(&self) -> ([&'static str; 3], [&'static str; 3], [&'static str; 4]) {
+    fn specialities(&self) -> ([&str; 3], [&str; 3], [&str; 4]) {
         (
-            ["Web/App Development \u{1F3AF}", "Reverse Engineering \u{1F50D}", "Machine Learning \u{1F916}"],
+            ["Web/App Development ", "Reverse Engineering ", "Machine Learning "],
             ["VSCode", "Jupyter", "Android Studio"],
             ["TensorFlow", "PyTorch", "Flask", "Docker"]
         )
     }
 
-    fn get_contact(&self) -> (&'static str, &'static str) {
+    fn get_contact(&self) -> (&str, &str) {
         ("@kazu_rms", "aenir02")
     }
 }
 
-#[no_mangle]
-pub extern "C" fn _start() -> ! {
+fn main() {
     let me = FullStackDeveloper::new();
     
-    let _status = me.current_adventures();
-    let _stack = me.tech_stack();
-    let _specs = me.specialities();
-    let _comms = me.get_contact();
-
-    loop {
-        core::hint::spin_loop();
-    }
+    println!("Hello! I'm {}, a {} {}", me.name, me.role, me.location);
+    println!("Contact me: {} | {}", me.get_contact().0, me.get_contact().1);
+    
+    let adventures = me.current_adventures();
+    println!("Currently: {}", adventures[0].1);
 }
 
-#[panic_handler]
-fn panic(_info: &core::panic::PanicInfo) -> ! {
-    loop {}
-}
+
 ```
 
 ---
