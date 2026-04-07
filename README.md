@@ -23,7 +23,7 @@ impl FullStackDeveloper {
         Self {
             name: "Yusuf",
             role: "Full Stack Developer",
-            location: '🌍',
+            location: 'earth',
             years_coding: 5,
             projects_completed: "50+", 
         }
@@ -41,7 +41,7 @@ impl FullStackDeveloper {
     fn tech_stack(&self) -> ([&str; 4], [&str; 3], [&str; 4]) {
         (
             ["Python ", "Bash ", "Julia ", "R "],
-            ["Go ", "C/C++ ⚡", "Rust "],
+            ["Go ", "C/C++ ", "Rust "],
             ["JavaScript ", "C# ", "Assembly ", "Java ☕"]
         )
     }
