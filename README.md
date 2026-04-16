@@ -1,86 +1,65 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2EF7A3&center=true&vCenter=true&width=435&lines=Welcome+to+my+Digital+Universe;Full+Stack+Developer;Machine+Learning+Enthusiast;Reverse+Engineering+Passionate" alt="Typing SVG" />
-</div>
 
+```
+██╗   ██╗██╗   ██╗███████╗██╗   ██╗███████╗
+╚██╗ ██╔╝██║   ██║██╔════╝██║   ██║██╔════╝
+ ╚████╔╝ ██║   ██║███████╗██║   ██║█████╗  
+  ╚██╔╝  ██║   ██║╚════██║██║   ██║██╔══╝  
+   ██║   ╚██████╔╝███████║╚██████╔╝██║     
+   ╚═╝    ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝     
+```
+
+**Full Stack · Machine Learning · Reverse Engineering**
+
+[![Telegram](https://img.shields.io/badge/@kazu__rms-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/kazu_rms)
+[![GitHub](https://img.shields.io/badge/aenir02-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aenir02)
+![Profile views](https://komarev.com/ghpvc/?username=yusufibin&style=flat-square&color=2EF7A3&label=visitors)
+
+</div>
 
 ---
 
-```rust
-struct FullStackDeveloper {
-    name: &'static str,
-    role: &'static str,
-    location: char,
-    years_coding: u8,
-    projects_completed: &'static str,
+### `whoami`
+
+```python
+yusuf = {
+    "role"    : "Full Stack Developer",
+    "focus"   : ["Reverse Engineering", "Machine Learning", "Systems"],
+    "years"   : 5,
+    "shipped" : "50+ projects",
+    "now"     : "Diving deep into advanced RE techniques",
 }
-
-impl FullStackDeveloper {
-    fn new() -> Self {
-        Self {
-            name: "Yusuf",
-            role: "Full Stack Developer",
-            location: 'earth',
-            years_coding: 5,
-            projects_completed: "50+", 
-        }
-    }
-
-    fn current_adventures(&self) -> [(&str, &str); 4] {
-        [
-            ("Current", "Working on **** "),
-            ("Learning", "Advanced Reverse Engineering techniques"),
-            ("Looking", "To collaborate on innovative projects"),
-            ("Ask me", "About Python, ML, and Reverse Engineering"),
-        ]
-    }
-
-    fn tech_stack(&self) -> ([&str; 4], [&str; 3], [&str; 4]) {
-        (
-            ["Python ", "Bash ", "Julia ", "R "],
-            ["Go ", "C/C++ ", "Rust "],
-            ["JavaScript ", "C# ", "Assembly ", "Java ☕"]
-        )
-    }
-
-    fn specialities(&self) -> ([&str; 3], [&str; 3], [&str; 4]) {
-        (
-            ["Web/App Development ", "Reverse Engineering ", "Machine Learning "],
-            ["VSCode", "Jupyter", "Android Studio"],
-            ["TensorFlow", "PyTorch", "Flask", "Docker"]
-        )
-    }
-
-    fn get_contact(&self) -> (&str, &str) {
-        ("@kazu_rms", "aenir02")
-    }
-}
-
-fn main() {
-    let me = FullStackDeveloper::new();
-    
-    println!("Hello! I'm {}, a {} {}", me.name, me.role, me.location);
-    println!("Contact me: {} | {}", me.get_contact().0, me.get_contact().1);
-    
-    let adventures = me.current_adventures();
-    println!("Currently: {}", adventures[0].1);
-}
-
-
 ```
 
 ---
 
+### Stack
+
+**Fluent**
+`Python` `Bash` `Julia` `R`
+
+**Systems**
+`C` `C++` `Rust` `Go` `Assembly`
+
+**Web & misc**
+`JavaScript` `C#` `Java`
+
+**Tooling**
+`TensorFlow` `PyTorch` `Flask` `Docker` · `VSCode` `Jupyter` `Android Studio`
+
+---
+
+### Activity
+
 <div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufibin&theme=react&hide_border=true&bg_color=0D1117" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=yusufibin&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&count_private=true" width="49%" />
+  <br/><br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yusufibin&bg_color=0D1117&color=2EF7A3&line=2EF7A3&point=FFFFFF&hide_border=true" width="100%" />
+</div>
 
+---
 
-
-  
-  <div align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufibin&theme=react&hide_border=true&bg_color=0D1117" alt="streak graph" />
-  </div>
-
-  <br />
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yusufibin&bg_color=0D1117&color=2EF7A3&line=2EF7A3&point=FFFFFF&hide_border=true" width="100%" alt="Activity Graph" />
-
+<div align="center">
+  <sub>Open to collaboration on ambitious projects · Drop a message</sub>
 </div>
