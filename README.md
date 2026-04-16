@@ -3,22 +3,17 @@
 
   <br><br>
 
-  👋 **Hi, I'm Yusuf.**  
-  $\color{#C4A484}{\textsf{A Full Stack Developer with 5+ years of coding experience.}}$
+  👋 **Hi, I'm Youssouf.**  
   $\color{#C4A484}{\textsf{I am deeply passionate about Machine Learning, exploring advanced}}$
   $\color{#C4A484}{\textsf{Reverse Engineering, and building innovative projects.}}$
 
   <br>
 
-  ![Python](https://img.shields.io/badge/Python-C4A484?style=flat-square&logo=python&logoColor=white)
-  ![Rust](https://img.shields.io/badge/Rust-C4A484?style=flat-square&logo=rust&logoColor=white)
-  ![C/C++](https://img.shields.io/badge/C%2FC++-C4A484?style=flat-square&logo=cplusplus&logoColor=white)
-  ![Assembly](https://img.shields.io/badge/Assembly-C4A484?style=flat-square&logo=assemblyscript&logoColor=white)
-  ![Go](https://img.shields.io/badge/Go-C4A484?style=flat-square&logo=go&logoColor=white)
+  **`Python`** • **`Rust`** • **`C/C++`** • **`Assembly`** • **`Go`**
 
   <br>
 
-  [𝕏 @kazu_rms](https://twitter.com/kazu_rms) &nbsp;|&nbsp; 📱 [WhatsApp : +241 065 362 371](https://wa.me/241065362371)
+  [𝕏 @kazu_rms](https://twitter.com/kazu_rms) &nbsp;|&nbsp; 📱 [click](https://wa.me/241065362371) &nbsp;|&nbsp; ✉️ [email](mailto:tmami4862@gmail.com)
 
   <br><br>
 
