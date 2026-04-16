@@ -22,5 +22,5 @@
 
   <br><br>
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufibin&theme=react&hide_border=true&bg_color=0D1117" alt="streak graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufibin&theme=dark&hide_border=true&bg_color=0D1117&ring=C4A484&fire=C4A484&currStreakNum=C4A484&sideNums=C4A484" alt="streak graph" />
 </div>
