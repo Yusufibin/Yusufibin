@@ -1,7 +1,10 @@
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2EF7A3&center=true&vCenter=true&width=435&lines=Welcome+to+my+Digital+Universe;Full+Stack+Developer;Machine+Learning+Enthusiast;Reverse+Engineering+Passionate" alt="Typing SVG" />
 </div>
+
+
 ---
+
 ```rust
 struct FullStackDeveloper {
     name: &'static str,
@@ -10,6 +13,7 @@ struct FullStackDeveloper {
     years_coding: u8,
     projects_completed: &'static str,
 }
+
 impl FullStackDeveloper {
     fn new() -> Self {
         Self {
@@ -20,6 +24,7 @@ impl FullStackDeveloper {
             projects_completed: "50+", 
         }
     }
+
     fn current_adventures(&self) -> [(&str, &str); 4] {
         [
             ("Current", "Working on **** "),
@@ -28,6 +33,7 @@ impl FullStackDeveloper {
             ("Ask me", "About Python, ML, and Reverse Engineering"),
         ]
     }
+
     fn tech_stack(&self) -> ([&str; 4], [&str; 3], [&str; 4]) {
         (
             ["Python ", "Bash ", "Julia ", "R "],
@@ -35,6 +41,7 @@ impl FullStackDeveloper {
             ["JavaScript ", "C# ", "Assembly ", "Java ☕"]
         )
     }
+
     fn specialities(&self) -> ([&str; 3], [&str; 3], [&str; 4]) {
         (
             ["Web/App Development ", "Reverse Engineering ", "Machine Learning "],
@@ -42,10 +49,12 @@ impl FullStackDeveloper {
             ["TensorFlow", "PyTorch", "Flask", "Docker"]
         )
     }
+
     fn get_contact(&self) -> (&str, &str) {
         ("@kazu_rms", "aenir02")
     }
 }
+
 fn main() {
     let me = FullStackDeveloper::new();
     
@@ -55,13 +64,23 @@ fn main() {
     let adventures = me.current_adventures();
     println!("Currently: {}", adventures[0].1);
 }
+
+
 ```
+
 ---
+
 <div align="center">
+
+
+
   
   <div align="center">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufibin&theme=react&hide_border=true&bg_color=0D1117" alt="streak graph" />
   </div>
+
   <br />
- 
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yusufibin&bg_color=0D1117&color=2EF7A3&line=2EF7A3&point=FFFFFF&hide_border=true" width="100%" alt="Activity Graph" />
+
 </div>
