@@ -81,6 +81,6 @@ fn main() {
 
   <br />
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yusufibin&bg_color=0D1117&color=2EF7A3&line=2EF7A3&point=FFFFFF&hide_border=true" width="100%" alt="Activity Graph" />
+
 
 </div>
