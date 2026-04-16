@@ -12,7 +12,7 @@
 
   <br>
 
-  [𝕏 @kazu_rms](https://twitter.com/kazu_rms) &nbsp;|&nbsp; 📱 [+241 065 362 371](https://wa.me/241065362371) &nbsp;|&nbsp; ✉️ [tmami4862@gmail.com](mailto:tmami4862@gmail.com)
+  [𝕏 @kazu_rms](https://twitter.com/kazu_rms) &nbsp;|&nbsp; 
 
   <br><br>
 
