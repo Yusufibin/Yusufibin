@@ -12,7 +12,7 @@
 
   <br>
 
-  [𝕏 @kazu_rms](https://twitter.com/kazu_rms) &nbsp;|&nbsp; 
+  [𝕏 @kazu_rms](https://twitter.com/kazu_rms) &nbsp;
 
   <br><br>
 
