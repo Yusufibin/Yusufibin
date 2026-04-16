@@ -12,7 +12,7 @@
 
   <br>
 
-  [𝕏 @kazu_rms](https://twitter.com/kazu_rms) &nbsp;|&nbsp; 📱 [WhatsApp : +241 065 362 371](https://wa.me/241065362371)
+  [𝕏 @kazu_rms](https://x.com/kazu_rms) &nbsp;|&nbsp; 📱 [WhatsApp](https://wa.me/241065362371)
 
   <br><br>
 
