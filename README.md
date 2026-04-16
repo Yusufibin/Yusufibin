@@ -1,11 +1,12 @@
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=C4A484&center=true&vCenter=true&width=435&lines=Welcome+to+my+Digital+Universe;Full+Stack+Developer;Machine+Learning+Enthusiast;Reverse+Engineering+Passionate" alt="Typing SVG" />
-
   <br><br>
 
-  👋 **Hi, I'm Youssouf.**  
-  $\color{#C4A484}{\textsf{I am deeply passionate about Machine Learning, exploring advanced}}$
-  $\color{#C4A484}{\textsf{Reverse Engineering, and building innovative projects.}}$
+  👋 **Hi, I'm Yusuf.**
+
+  ![](https://img.shields.io/badge/A_Full_Stack_Developer_with_5%2B_years_of_coding_experience.-0D1117?style=flat&labelColor=0D1117&color=C4A484)
+  ![](https://img.shields.io/badge/I_am_deeply_passionate_about_Machine_Learning%2C_exploring_advanced-0D1117?style=flat&labelColor=0D1117&color=C4A484)
+  ![](https://img.shields.io/badge/Reverse_Engineering%2C_and_building_innovative_projects.-0D1117?style=flat&labelColor=0D1117&color=C4A484)
 
   <br>
 
@@ -13,7 +14,7 @@
 
   <br>
 
-  [𝕏 @kazu_rms](https://twitter.com/kazu_rms) &nbsp;|&nbsp; 📱 [click](https://wa.me/241065362371) &nbsp;|&nbsp; ✉️ [email](mailto:tmami4862@gmail.com)
+  [𝕏 @kazu_rms](https://twitter.com/kazu_rms) &nbsp;|&nbsp; 📱 [+241 065 362 371](https://wa.me/241065362371) &nbsp;|&nbsp; ✉️ [tmami4862@gmail.com](mailto:tmami4862@gmail.com)
 
   <br><br>
 
