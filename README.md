@@ -1,28 +1,36 @@
 <div align="center">
 
-Ingénieur logiciel à Libreville.<br>
-Rust et Python. Agents, outils système, drones.<br>
-Des mathématiques jusqu'au code.
+# Yusufibin
 
-<br>
+**Ingénieur logiciel · Libreville, Gabon**
 
-[Carnet](https://yusufleads.vercel.app/) &nbsp;&nbsp;·&nbsp;&nbsp; [𝕏 @kazu_rms](https://x.com/kazu_rms)
+Des mathématiques au code, je développe en **Rust** et en **Python**.<br>
+Mes terrains d’exploration : les agents logiciels, les outils système et les drones.
+
+[Carnet personnel](https://yusufleads.vercel.app/) &nbsp;·&nbsp; [𝕏 — @kazu_rms](https://x.com/kazu_rms)
 
 </div>
 
-<br>
+---
 
-**Maintenant**
+## Ce que je construis
 
-- [**drone-explorer-rs**](https://github.com/Yusufibin/drone-explorer-rs) — station sol Rust pour drones MAVLink, agents LLM et MCP
-- [**local-agent**](https://github.com/Yusufibin/local-agent) — agent de code sur le bureau, en Tauri
-- [**-ath**](https://github.com/Yusufibin/-ath) — recherche de code dans le terminal, au-dessus de ripgrep
+Trois projets au croisement de ces domaines :
 
-**Aussi**
+| Projet | Description | Technologies clés |
+| :--- | :--- | :--- |
+| [**drone-explorer-rs**](https://github.com/Yusufibin/drone-explorer-rs) | Une station au sol pour drones MAVLink, avec des agents fondés sur des modèles de langage (LLM) et le protocole MCP. | Rust · MAVLink · MCP |
+| [**local-agent**](https://github.com/Yusufibin/local-agent) | Un agent de programmation dans une application de bureau. | Tauri |
+| [**-ath**](https://github.com/Yusufibin/-ath) | Un outil de recherche de code depuis le terminal, construit autour de ripgrep. | ripgrep |
 
-[orbitsim](https://github.com/Yusufibin/orbitsim) · [RustChan](https://github.com/Yusufibin/RustChan) · [gv](https://github.com/Yusufibin/gv)
+## Autres explorations
+
+[**orbitsim**](https://github.com/Yusufibin/orbitsim) &nbsp;·&nbsp; [**RustChan**](https://github.com/Yusufibin/RustChan) &nbsp;·&nbsp; [**gv**](https://github.com/Yusufibin/gv)
+
+## Activité GitHub
 
 <div align="center">
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufibin&theme=dark&hide_border=true&bg_color=0D1117&ring=C4A484&fire=C4A484&currStreakNum=C4A484&sideNums=C4A484" alt="activité GitHub" />
+  <a href="https://github.com/Yusufibin?tab=overview">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufibin&amp;theme=dark&amp;hide_border=true&amp;bg_color=0D1117&amp;ring=C4A484&amp;fire=C4A484&amp;currStreakNum=C4A484&amp;sideNums=C4A484" alt="Statistiques des séries de contributions GitHub de Yusufibin" width="495" />
+  </a>
 </div>
