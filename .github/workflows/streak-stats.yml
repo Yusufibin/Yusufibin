@@ -1,0 +1,43 @@
+name: Mettre à jour les statistiques GitHub
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/streak-stats.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: streak-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Générer les statistiques
+        uses: DenverCoder1/github-readme-streak-stats@adbd07609bb771d3510a15ee2f3b31d5fbe5201d # v1
+        with:
+          options: user=${{ github.repository_owner }}&theme=dark&hide_border=true&background=0D1117&ring=C4A484&fire=C4A484&currStreakNum=C4A484&sideNums=C4A484&locale=fr&timezone=Africa/Libreville&disable_animations=true
+          path: profile/streak.svg
+
+      - name: Enregistrer les statistiques
+        run: |
+          test -s profile/streak.svg
+          git add profile/streak.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update GitHub streak stats"
+          git push
