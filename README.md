@@ -31,6 +31,6 @@ Trois projets au croisement de ces domaines :
 
 <div align="center">
   <a href="https://github.com/Yusufibin?tab=overview">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufibin&amp;theme=dark&amp;hide_border=true&amp;bg_color=0D1117&amp;ring=C4A484&amp;fire=C4A484&amp;currStreakNum=C4A484&amp;sideNums=C4A484" alt="Statistiques des séries de contributions GitHub de Yusufibin" width="495" />
+    <img src="./profile/streak.svg" alt="Statistiques des séries de contributions GitHub de Yusufibin" width="495" />
   </a>
 </div>
