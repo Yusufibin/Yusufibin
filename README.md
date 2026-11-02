@@ -4,10 +4,10 @@
 
 **Ingénieur logiciel · Libreville, Gabon**
 
-Des mathématiques au code, je développe en **Rust** et en **Python**.<br>
-Mes terrains d’exploration : les agents logiciels, les outils système et les drones.
+Je construis des **agents logiciels**, des outils système et des stations de drone.<br>
+En **Rust** et en **Python** — IA, reverse engineering, et applications de bureau.
 
-[Carnet personnel](https://yusufleads.vercel.app/) &nbsp;·&nbsp; [𝕏 — @kazu_rms](https://x.com/kazu_rms)
+[Carnet personnel](https://yusufleads.vercel.app/) &nbsp;·&nbsp; [ᵔ — @kazu_rms](https://x.com/kazu_rms)
 
 </div>
 
